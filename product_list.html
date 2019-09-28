@@ -41,7 +41,7 @@
           <p class="item_description">
             Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
           </p>
-          <button type="button" name="button" class="order_btn">Order</button>
+          <button type="button" name="button" class="order_btn" id="trigger">Order</button>
         </div>
 
         <div class="item">
@@ -101,6 +101,9 @@
 
     </main>
 
+    <div class="" id="blackout">
+
+    </div>
 
     <div id="slide-in-page">
       <div class="" id="detail_page">
@@ -116,23 +119,23 @@
           </div>
           <div class="customize">
             <h1>How many you want</h1>
-            <div class="choices">
-              <button type="button" name="button" class="order-options">None</button>
-              <button type="button" name="button" class="order-options">Sugar-milk</button>
+            <div class="choices" id="glazing">
+              <button type="button" name="button" class="order-options-clicked">None</button>
+              <button type="button" name="button" class="order-options" id="test">Sugar-milk</button>
               <button type="button" name="button" class="order-options">Vanilla</button>
               <button type="button" name="button" class="order-options">Chocolate</button>
             </div>
           </div>
           <div class="customize">
             <h1>Choose your glazing</h1>
-            <div class="choices">
-              <button type="button" name="button" class="order-options">1</button>
+            <div class="choices" id="count">
+              <button type="button" name="button" class="order-options-clicked">1</button>
               <button type="button" name="button" class="order-options">3</button>
               <button type="button" name="button" class="order-options">6</button>
               <button type="button" name="button" class="order-options">12</button>
             </div>
           </div>
-          <button type="button" name="button" class="order_btn">Place order</button>
+          <button type="button" name="button" class="order_btn" id="trigger-close">Place order</button>
         </div>
       </div>
     </div>
@@ -146,6 +149,9 @@
         <img src="./resources/img/mail.png" alt="">
       </div>
     </footer>
+
+    <script type="text/javascript" src="./resources/js/main.js">
+    </script>
 
   </body>
 </html>
