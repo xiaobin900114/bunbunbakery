@@ -74,9 +74,14 @@ main {
   text-align: center;
   color: white;
   background-color: #DA5741;
+  opacity: 1;
   transition: opacity 0.3s;
 }
 
 .landing_btn:hover {
   opacity: 0.9;
+}
+
+.landing_btn a:hover{
+  color: white;
 }

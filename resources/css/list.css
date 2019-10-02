@@ -104,9 +104,9 @@ header p {
   flex-direction: column;
 }
 
-.item figure {
+.item figure img{
   width: 100%;
-  height: 250px;
+  height: auto;
 }
 
 .item p {
@@ -157,19 +157,20 @@ footer {
   visibility: hidden;
   position: fixed;
   top:0;
-  right: 0;
+  right: -80%;
   width: 75%;
   height: 100%;
   display: flex;
   justify-content: flex-end;
   z-index: 2;
+  transition: top 2s;
 }
 
 #detail_page {
   width: 100%;
   height: 100%;
   display: flex;
-  padding: 1rem;
+  padding: 5rem 2rem;
   background-color: white;
 }
 
@@ -198,7 +199,7 @@ footer {
 
 .choices {
   height: 120px;
-  margin-bottom: 1rem;
+  margin: 1.5rem 0;
 }
 
 .order-options {
@@ -221,7 +222,13 @@ footer {
   color: white;
 }
 
+#slide-in-page img {
+  width: 500px;
+  height: 500px;
+}
+
 /* blackout */
+
 #blackout {
   visibility: hidden;
   position: fixed;
